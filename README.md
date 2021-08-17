@@ -5,6 +5,7 @@ For use, you just need to put on body html:
 ```HTML
 <script src="https://raw.githubusercontent.com/lucasmelocvl/warn-cookies/660c99f516ea4145b5df5850edf9f8e6ebdf5829/main.js"></script>
 ```
+
 If you want to put a message on header page, add this:
 ```HTML
 <link href="https://raw.githubusercontent.com/lucasmelocvl/warn-cookies/660c99f516ea4145b5df5850edf9f8e6ebdf5829/main_header.css" rel="stylesheet">
