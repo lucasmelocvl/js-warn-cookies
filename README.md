@@ -7,7 +7,7 @@ For use, you just need to put on body html:
 <script src="main.js"></script>
 ```
 
-After that, open script tags and call the initial function, sending has params
+After that, open script tags and call the initial function, sending these params
 1. Cookies message; 
 2. Privacy politicies message; 
 3. Privacy policies page link; 
@@ -25,6 +25,6 @@ For example:
 </script>
 ```
 
-For more examples, see example.html file or send me a message at: lucas@cleancode.com.br
+For more examples, see example.html file or send me a message on twitter @lucasmelocvl or email lucas@cleancode.com.br
 
 Be awesome!
