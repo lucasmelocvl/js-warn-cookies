@@ -1,18 +1,18 @@
 # warn-cookies
 Warning cookies for site and public systems.
 
-For use, you just need to put on body html:
+For use, download files *.js and *.css and paste on yout project folders, after that, you just need to put on body html:
 ```HTML
-<script src="https://raw.githubusercontent.com/lucasmelocvl/warn-cookies/660c99f516ea4145b5df5850edf9f8e6ebdf5829/main.js"></script>
+<script src="main.js"></script>
 ```
 
 If you want to put a message on header page, add this:
 ```HTML
-<link href="https://raw.githubusercontent.com/lucasmelocvl/warn-cookies/660c99f516ea4145b5df5850edf9f8e6ebdf5829/main_header.css" rel="stylesheet">
+<link href="main_header.css" rel="stylesheet">
 ```
 Or, if you want to put a message on footer page, add this:
 ```HTML
-<link href="https://raw.githubusercontent.com/lucasmelocvl/warn-cookies/660c99f516ea4145b5df5850edf9f8e6ebdf5829/main_footer.css" rel="stylesheet">
+<link href="main_footer.css" rel="stylesheet">
 ```
 
 After that, open script tags and call the initial function, sending these params
@@ -39,5 +39,6 @@ You can fork or send improvement to this code.
 
 IMPROVEMENTS:
 1. Create dynamic stylesheet by function call, always thinking of making it easier to use the scripts.
+2. Create remote link to javascript and stylesheet, not being necessary to download the files *.js and *.css.
 
 Be awesome!
