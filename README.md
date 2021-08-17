@@ -7,7 +7,7 @@ For use, you just need to put on body html:
 ```
 If you want to put a message on header page, add this:
 ```HTML
-https://raw.githubusercontent.com/lucasmelocvl/warn-cookies/660c99f516ea4145b5df5850edf9f8e6ebdf5829/main_header.css
+<link href="https://raw.githubusercontent.com/lucasmelocvl/warn-cookies/660c99f516ea4145b5df5850edf9f8e6ebdf5829/main_header.css" rel="stylesheet">
 ```
 Or, if you want to put a message on footer page, add this:
 ```HTML
