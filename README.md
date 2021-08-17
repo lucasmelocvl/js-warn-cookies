@@ -3,8 +3,15 @@ Warning cookies for site and public systems.
 
 For use, you just need to put on body html:
 ```HTML
-<link href="main_footer.css" rel="stylesheet">
-<script src="main.js"></script>
+<script src="https://raw.githubusercontent.com/lucasmelocvl/warn-cookies/660c99f516ea4145b5df5850edf9f8e6ebdf5829/main.js"></script>
+```
+If you want to put a message on header page, add this:
+```HTML
+https://raw.githubusercontent.com/lucasmelocvl/warn-cookies/660c99f516ea4145b5df5850edf9f8e6ebdf5829/main_header.css
+```
+Or, if you want to put a message on footer page, add this:
+```HTML
+<link href="https://raw.githubusercontent.com/lucasmelocvl/warn-cookies/660c99f516ea4145b5df5850edf9f8e6ebdf5829/main_footer.css" rel="stylesheet">
 ```
 
 After that, open script tags and call the initial function, sending these params
@@ -26,5 +33,10 @@ For example:
 ```
 
 For more examples, see example.html file or send me a message on twitter @lucasmelocvl or email lucas@cleancode.com.br
+
+You can fork or send improvement to this code.
+
+IMPROVEMENTS:
+1. Create dynamic stylesheet by function call, always thinking of making it easier to use the scripts.
 
 Be awesome!
