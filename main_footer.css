@@ -1,0 +1,58 @@
+.warn-cookies-box.hide {
+    display: none !important;
+}
+
+.warn-cookies-box {
+    position: fixed;
+    background: rgba(0, 0, 0, .9);
+    width: 100%;
+    z-index: 998;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 0 0px 8px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.warn-cookies-box .warn-cookies-msg,
+.warn-cookies-box .warn-cookies-btn {
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.warn-cookies-msg {
+    width: 70%;
+}
+
+.warn-cookies-msg-policies {
+    font-size: 12px;
+    color: white;
+}
+
+.warn-cookies-btn {
+    width: 30%;
+}
+
+.warn-cookies-box .warn-cookies-btn {
+    background: #264F9F;
+    cursor: pointer;
+    align-self: normal;
+}
+
+@media screen and (max-width: 600px) {
+    .warn-cookies-box {
+        flex-direction: column;
+    }
+
+    .warn-cookies-msg {
+        width: 100%;
+    }
+
+    .warn-cookies-btn {
+        width: 100%;
+    }
+}
