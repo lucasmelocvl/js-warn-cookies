@@ -1,7 +1,7 @@
 # warn-cookies
 Warning cookies for site and public systems.
 
-For use, download files *.js and *.css and paste on yout project folders, after that, you just need to put on body html:
+Download files *.js and *.css and paste on yout project folders, after that, you just need to put on body html:
 ```HTML
 <script src="main.js"></script>
 ```
